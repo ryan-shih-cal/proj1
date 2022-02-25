@@ -3,9 +3,15 @@
     font: 600 30px Inter,sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     display: flex;
     align-items: space-between;
+    margin: 0%;
+    padding: 0%;
 }
 
 .splash-page {
@@ -146,4 +152,33 @@
     padding: 5%;
     padding-top: 7%;
     padding-bottom: 7%;
+}
+
+.contacts {
+    background-color: #2E2E2E;
+    border-radius: 25px;
+    margin: 0%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+    display: flex;
+    flex-flow: column;
+    justify-items: flex-start;
+}
+
+.contacts-title {
+    color: white;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.email {
+    color: white;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: flex-start;
 }
